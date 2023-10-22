@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#bug fix to enable curl to retrieve a page that contains 'Hello Holberton'
+service apache2 status
+service apache2 start
